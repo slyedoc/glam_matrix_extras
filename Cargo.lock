@@ -30,9 +30,8 @@ checksum = "c08606f8c3cbf4ce6ec8e28fb0014a2c086708fe954eaa885384a6165172e7e8"
 
 [[package]]
 name = "bevy_macro_utils"
-version = "0.18.0-rc.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f499ce11a21f5f01b5bc2529e7d9ec76961f73531a9d88be58b5dcb4a6e24ce4"
+version = "0.18.0-dev"
+source = "git+https://github.com/bevyengine/bevy?branch=main#7ca7b97627f963b61ab61e037c109c0ae025105c"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -42,9 +41,8 @@ dependencies = [
 
 [[package]]
 name = "bevy_platform"
-version = "0.18.0-rc.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cfc05567edd4e8a5f705be83ddc75cba2e388832f269c658df2337209f718601"
+version = "0.18.0-dev"
+source = "git+https://github.com/bevyengine/bevy?branch=main#7ca7b97627f963b61ab61e037c109c0ae025105c"
 dependencies = [
  "critical-section",
  "foldhash",
@@ -61,15 +59,13 @@ dependencies = [
 
 [[package]]
 name = "bevy_ptr"
-version = "0.18.0-rc.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "09f2912f5547f7a49c9bedd7eeec06d014c06fa08f6e6518642e99c457f5c752"
+version = "0.18.0-dev"
+source = "git+https://github.com/bevyengine/bevy?branch=main#7ca7b97627f963b61ab61e037c109c0ae025105c"
 
 [[package]]
 name = "bevy_reflect"
-version = "0.18.0-rc.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "69e846831b308f38f9bf3ae7c74bcf2b888b84621556abd64f0f107a14cf5a14"
+version = "0.18.0-dev"
+source = "git+https://github.com/bevyengine/bevy?branch=main#7ca7b97627f963b61ab61e037c109c0ae025105c"
 dependencies = [
  "assert_type_match",
  "bevy_platform",
@@ -95,9 +91,8 @@ dependencies = [
 
 [[package]]
 name = "bevy_reflect_derive"
-version = "0.18.0-rc.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9a9765a0ff296d5adf5e0e96bd11bbf49eb1a83c03504c15b6404e6f4cfa5e67"
+version = "0.18.0-dev"
+source = "git+https://github.com/bevyengine/bevy?branch=main#7ca7b97627f963b61ab61e037c109c0ae025105c"
 dependencies = [
  "bevy_macro_utils",
  "indexmap",
@@ -109,9 +104,8 @@ dependencies = [
 
 [[package]]
 name = "bevy_utils"
-version = "0.18.0-rc.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b69d01a7f00490ce63cf840bbb9ce6f0e702a74e802430fc2883ef7a740a558e"
+version = "0.18.0-dev"
+source = "git+https://github.com/bevyengine/bevy?branch=main#7ca7b97627f963b61ab61e037c109c0ae025105c"
 dependencies = [
  "bevy_platform",
  "disqualified",
@@ -516,18 +510,18 @@ dependencies = [
 
 [[package]]
 name = "toml_datetime"
-version = "0.7.3"
+version = "0.7.5+spec-1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f2cdb639ebbc97961c51720f858597f7f24c4fc295327923af55b74c3c724533"
+checksum = "92e1cfed4a3038bc5a127e35a2d360f145e1f4b971b551a2ba5fd7aedf7e1347"
 dependencies = [
  "serde_core",
 ]
 
 [[package]]
 name = "toml_edit"
-version = "0.23.7"
+version = "0.24.0+spec-1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6485ef6d0d9b5d0ec17244ff7eb05310113c3f316f2d14200d4de56b3cb98f8d"
+checksum = "8c740b185920170a6d9191122cafef7010bd6270a3824594bff6784c04d7f09e"
 dependencies = [
  "indexmap",
  "toml_datetime",
@@ -537,9 +531,9 @@ dependencies = [
 
 [[package]]
 name = "toml_parser"
-version = "1.0.4"
+version = "1.0.6+spec-1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c0cbe268d35bdb4bb5a56a2de88d0ad0eb70af5384a99d648cd4b3d04039800e"
+checksum = "a3198b4b0a8e11f09dd03e133c0280504d0801269e9afa46362ffde1cbeebf44"
 dependencies = [
  "winnow",
 ]
